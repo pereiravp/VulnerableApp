@@ -11,4 +11,12 @@ public class DemoQuery {
         String sql = "SELECT * FROM users WHERE id=" + userId;
         return sql;
     }
+
+    public void debugEval(String expr) {
+        Object result = eval(expr);
+    }
+
+    private Object eval(String expr) {
+        return null;
+    }
 }
